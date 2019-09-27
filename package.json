@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Heroku server to host stelo.space",
   "engines": {
-    "node": "13.x"
+    "node": "12.11"
   },
   "main": "index.js",
   "scripts": {
