@@ -1,0 +1,21 @@
+{
+  "name": "heroku.stelo.space",
+  "version": "1.0.0",
+  "description": "Heroku server to host stelo.space",
+  "engines": {
+    "node": "13.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "license": "ISC"
+}
