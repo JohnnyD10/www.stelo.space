@@ -11,8 +11,9 @@ const port = process.env.PORT || 3000
 
 createServer((req, res) => {
 
-	//file queried
+	//file queried; if none get index.html
 	let pathname = parse(req.url).pathname.substring(1)
+	if(!pathname) pathname = 'index.html'
 
 	//add proper header for file type sent
 	switch( extname( pathname )){
