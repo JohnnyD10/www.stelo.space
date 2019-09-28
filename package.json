@@ -5,9 +5,9 @@
   "engines": {
     "node": "12.11"
   },
-  "main": "server.js",
+  "main": "js/server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node js/server.js"
   },
   "repository": {
     "type": "git",
