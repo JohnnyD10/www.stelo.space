@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100mm" height="100mm" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<radialGradient id="d" cx="50.027" cy="247.03" r="50.027" gradientTransform="matrix(1 0 0 .99971 0 .071214)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#080410" offset="0"/>
+<stop stop-color="#080410" offset=".27687"/>
+<stop stop-color="#181028" offset="1"/>
+</radialGradient>
+<filter id="g" x="-.6" y="-.6" width="2.2" height="2.2" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.9921875"/>
+</filter>
+<filter id="f" x="-.6" y="-.6" width="2.2" height="2.2" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.9921875"/>
+</filter>
+<filter id="e" x="-.6" y="-.6" width="2.2" height="2.2" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.9921875"/>
+</filter>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(0,-197)">
+<path d="m44.436 296.72c-6.0328-0.76704-11.089-2.2786-16.511-4.9359-4.5286-2.2195-7.8428-4.4734-11.523-7.837-8.4412-7.7138-13.822-17.599-15.764-28.96-0.5158-3.0177-0.71032-9.7372-0.37722-13.031 1.5148-14.979 9.6676-28.366 22.433-36.837 5.4476-3.6149 13.124-6.5537 19.961-7.642 2.7617-0.4396 11.467-0.49882 14.16-0.0964 11.615 1.736 21.513 6.8072 29.496 15.112 3.7725 3.9244 6.3538 7.6744 8.9158 12.952 1.8446 3.8 2.5044 5.6094 3.5001 9.5983 1.1395 4.565 1.2327 5.4848 1.2323 12.164-2.71e-4 4.9372-0.05973 6.3037-0.33876 7.7927-2.0516 10.946-6.632 19.805-14.104 27.276-7.7461 7.7461-16.93 12.404-27.942 14.17-3.2565 0.5223-10.068 0.66407-13.139 0.2735z" fill="url(#d)" stroke-opacity="0"/>
+</g>
+<circle id="c" transform="matrix(.17749 0 0 .17749 29.752 23.089)" cx="40.538" cy="32.437" r="1.9844" fill="#fff" filter="url(#g)" opacity=".5" stroke-opacity="0"/>
+<circle id="a" transform="matrix(.17749 0 0 .17749 36.083 26.207)" cx="40.538" cy="32.437" r="1.9844" fill="#f0f0ff" filter="url(#f)" opacity=".5" stroke-opacity="0"/>
+<circle id="b" transform="matrix(.17749 0 0 .17749 38.351 17.703)" cx="40.538" cy="32.437" r="1.9844" fill="#fff0f0" filter="url(#e)" opacity=".5" stroke-opacity="0"/>
+<use transform="translate(3.1017 -17.056)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(-4.0013 -12.53)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(37.799 -13.797)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(16.147 -17.655)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(19.422 -3.9361)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(45.779 -4.7494)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(49.821 1.4507)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(27.891 3.5687)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(51.043 -2.6103)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(29.478 .75292)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(42.698 28.096)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(39.694 8.243)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(37.759 24.546)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(39.444 37.992)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(35.67 49.201)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(12.076 46.241)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(17.459 58.734)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(33.61 52.601)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(18.265 54.368)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(-8.5114 55.314)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(-3.2564 56.501)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(-10.422 55.249)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(-19.95 44.101)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(-26.01 38.539)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(-29.354 47.194)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(-19.74 29.484)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(-39.615 23.455)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(-15.426 5.4191)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(-37.604 10.098)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(-25.884 9.4736)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(-19.256 -15.869)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(-24.749 -13.072)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(-26.103 4.777)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(.21263 -18.842)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(-3.6897 4.703)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(28.304 1.7767)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(27.773 -.00014236)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(30.602 12.358)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(25.95 26.063)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(25.037 36.378)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(13.035 35.331)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(-1.6356 40.976)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(-1.4884 28.464)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(-12.48 24.016)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(-6.0349 26.812)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(4.6334 20.752)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(4.0564 8.3861)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(9.672 10.286)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(13.704 13.018)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(18.167 73.459)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(5.3081 77.074)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(10.333 72.967)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(46.35 64.4)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(53.884 52.449)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(51.428 57.521)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(50.96 46.197)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(32.797 67.248)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(47.579 32.636)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(44.606 41.92)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="translate(23.248 -29.06)" width="100%" height="100%" xlink:href="#c"/>
+<use transform="translate(12.967 -29.75)" width="100%" height="100%" xlink:href="#a"/>
+<use transform="translate(17.524 -13.683)" width="100%" height="100%" xlink:href="#b"/>
+</svg>

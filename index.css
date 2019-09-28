@@ -7,14 +7,45 @@
 
 }
 
-nav{
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	align-content: flex-start;
+#background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	perspective: 800px;
+	perspective-origin: 50% 50%;
 }
 
-nav>a{
+.layer{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: .1em solid #000;
+}
+.layer­>svg{
+	position: absolute;
 	
+}
+
+#layer0 {
+	transform: translateZ(-60em);
+}
+#layer1 {	
+	transform: translateZ(-50em);
+}
+#layer2 {
+	transform: translateZ(-40em);
+}
+#layer3 {
+	transform: translateZ(-30em);
+}
+#layer4 {;
+	transform: translateZ(-20em);
+}
+#layer5 {
+	transform: translateZ(-10em);
+}
+#layer6 {
+	transform: translateZ(0);
 }

@@ -1,34 +1,36 @@
-//small function to make my life easier
-const log = e => { console.log(e); return e }
-//required functions
-const { createServer } = require('http');
-const { existsSync, lstatSync, readFileSync} = require('fs')
-const { parse } = require('url')
-const { extname } = require('path')
-//port on which the server will run
-const port = process.env.PORT || 3000
+log = e => {
+	console.log(e)
+	return e
+}
 
+var bckScroll = 50;
 
-createServer((req, res) => {
+onload = () => {
+	const bckStyle = document.getElementById('background').style
 
-	//file queried; if none get index.html
-	let pathname = parse(req.url).pathname.substring(1)
-	if(!pathname) pathname = 'index.html'
+	addEventListener('wheel', e => {
+		bckScroll += e.deltaY
+		bckScroll = bckScroll > 100 ? 100 : bckScroll < 0 ? 0 : bckScroll
 
-	//add proper header for file type sent
-	switch( extname( pathname )){
-		case '.html':
-			res.setHeader('Content-Type', 'text/html')
-			break;
+		bckStyle.perspectiveOrigin = '50% ' + bckScroll + '%'
+
+	})
+}
+
+customElements.define('fetch-svg', class extends HTMLElement{
+	constructor(){
+		super()
 	}
-
-	//Try get file, write file, set status... Really not efficient but good for now
-	if( existsSync(pathname) && lstatSync(pathname).isFile() ){
-		res.write( readFileSync(pathname) )
-		res.statusCode = 200
+	connectedCallback(){
+		fetch(this.getAttribute('data-fetch'))
+			.then( res => res.text())
+			.then( res => {
+				if(res){
+					let svg = (new DOMParser()).parseFromString(res, 'image/svg+xml').firstElementChild
+					this.appendChild(svg)
+				}
+				
+			})
+			.catch( err => log(err))
 	}
-	else res.statusCode = 404
-
-  	res.end()
-
-}).listen( port )
+})
