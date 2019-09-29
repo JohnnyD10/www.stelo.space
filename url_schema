@@ -18,6 +18,19 @@ name:
   - notes
 
 # interfaces:
+#need to add authentication APIs
+
+log_in:
+  GET, N/A, /v0/token, N/A
+  { credentials, permissions }
+  200 OK token{}
+  
+log_out:
+  DELETE, Authorization = token, /v0/token, N/A
+  N/A
+  200 OK
+  
+register:> create_user
 
 read_users:
   GET, Authorization = token, /v0/users, [$filter="properties=filteredValue", $top=int, $skip=int]
@@ -45,4 +58,14 @@ delete_user:
   200 OK
   - only works if the token relates to same $id or is moderator
   - Uncertains if $id should be in body, should refer to OData
+  - Cascade delete it's constellations and stars. if a user uses one of these only the author field should change
 
+read_constellations:
+update_constellation:
+create_constellation:
+delete_constellation:
+
+read_stars:
+update_star:
+create_star:
+delete_star:
