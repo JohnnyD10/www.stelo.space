@@ -1,25 +1,33 @@
 //small function to make my life easier
 const log = e => { console.log(e); return e }
-//required functions
+
+//dependencies
 const { createServer } = require('http');
 const { existsSync, lstatSync, readFileSync} = require('fs')
 const { parse } = require('url')
 const { extname } = require('path')
+const { decode, verify, sign } = require('jsonwebtoken')
+
 //port on which the server will run
 const port = process.env.PORT || 3000
 
+//responce type to match file type
+const headers = {
+	'.html': 'text/html',
+	'.js': 'application/javascript',
+	'.svg': 'image/svg+xml'
+}
 
-createServer((req, res) => {
+//function to handle http server request event
+const requestHandler = (req, res) => {
+
+	//filter resquest types by url
+	
 
 	//file queried; if none get index.html
-	let pathname = parse(req.url).pathname.substring(1)
-	if(!pathname) pathname = 'index.html'
+	let pathname = parse(req.url).pathname.substring(1) || 'index.html'
 
 	//add proper header for file type sent
-	let headers = {
-		'.html': 'text/html',
-		'.js': 'application/javascript'
-	}
 	res.setHeader('Content-Type', headers[ extname( pathname)] || '')
 
 	//Try get file, write file, set status... Really not efficient but good for now
@@ -30,5 +38,6 @@ createServer((req, res) => {
 	else res.statusCode = 404
 
   	res.end()
+}
 
-}).listen( port )
+createServer( requestHandler).listen( port)
