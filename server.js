@@ -21,16 +21,15 @@ const headers = {
 //function to handle http server request event
 const requestHandler = (req, res) => {
 
-	//filter resquest types by url
-	
-
 	//file queried; if none get index.html
-	let pathname = parse(req.url).pathname.substring(1) || 'index.html'
-
+	let pathname = `public/${
+		(parse(req.url).pathname.substring(1) || 'index.html').replace( '../' , '')
+	}`
+console.log(pathname)
 	//add proper header for file type sent
 	res.setHeader('Content-Type', headers[ extname( pathname)] || '')
 
-	//Try get file, write file, set status... Really not efficient but good for now
+	//Try get file, write file, set status... 
 	if( existsSync(pathname) && lstatSync(pathname).isFile() ){
 		res.write( readFileSync(pathname) )
 		res.statusCode = 200

@@ -1,13 +1,13 @@
 {
-  "name": "heroku.stelo.space",
+  "name": "www.stelo.space",
   "version": "1.0.0",
-  "description": "Heroku server to host stelo.space",
+  "description": "Stelo.space server",
   "engines": {
     "node": "12.11"
   },
-  "main": "js/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node js/server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "node",
-    "heroku"
+    "netlify"
   ],
   "license": "ISC",
   "dependencies": {
