@@ -1,0 +1,77 @@
+@import "colors";
+
+.heading-primary, .heading-secondary, .heading-tertiary {
+  font-family: 'HelveticaNeue', sans-serif;
+  font-weight: bold;
+  line-height: 1.22;
+}
+
+.text-primary, .text-secondary, .text-tertiary, .text-white, .text-light, p {
+  font-family: 'HelveticaNeue', sans-serif;
+  line-height: 1.25;
+  font-size: 26px;
+}
+
+.heading-primary {
+  font-size: 70px;
+  color: $navy;
+}
+
+.heading-secondary {
+  font-size: 48px;
+  color: $navy;
+}
+
+.heading-tertiary {
+  font-size: 48px;
+  font-weight: normal;
+  color: $navy-36;
+}
+
+.header-white {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.4em;
+  text-align: left;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+p, .text-primary{
+  color: $navy-76;
+}
+
+.text-secondary {
+  font-size: 32px;
+  color: $navy-25;
+}
+
+.text-tertiary {
+  color: $grey;
+}
+
+.text-white {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: white;
+}
+
+.text-light {
+  font-size: 32px;
+  color: $grey-76;
+}
+
+@media only screen and (max-width: 800px) {
+  .text-tertiary {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .text-tertiary {
+    font-size: 1rem;
+  }
+}
