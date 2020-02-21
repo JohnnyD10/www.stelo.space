@@ -12,9 +12,9 @@
                             If the project is fictional you can talk about why you created it.">
             </ConstellationCard>
             <ConstellationCard
-                title="Tackle Nahej"
-                description="For all of those who have that one friend who everyone 'loves'.
-                            A simple guide to tackling Nahej in the street.">
+                title="Love Nahej"
+                description="For all of those who have that one friend who everyone adores.
+                            A simple guide to loving Nahej in the street.">
             </ConstellationCard>
         </div>
         <p class="description text-tertiary">
